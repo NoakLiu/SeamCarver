@@ -4,7 +4,7 @@ Seam carving is a quite famous method for resize the image. By using pixel remov
 
 However, there are several shortcomings for the seam carving because the simple energy dynamic programming function on graph pixel modeling, it will miss some special characteristics in the image etc. 
 
-I enhance the performance of the model from the following aspects: 
+This project is a package for enhancing the performance of the model from the following aspects: 
 
 1. apply bicubic interpolation when enlarging the image
 2. use the LC algorithm to maintain the main characteristics of the image
